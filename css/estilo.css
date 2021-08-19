@@ -152,7 +152,7 @@ main{
 }
 
 .main-currency-table{
-    width: 70%;
+    width: 65%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -230,4 +230,17 @@ main{
     line-height: 1.7rem;
     font-weight: 300;
     color: var(--warm-black);
+}
+
+.comission--date{
+    background-color: var(--soft-blue);
+}
+
+.main-comission-table .comission--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+    text-align: left;
 }
