@@ -1,0 +1,29 @@
+.main-tables-container{
+    display: flex;
+}
+
+.main-currency-table{
+    width: 50%;
+}
+
+.main-comission-table{
+    width: 50%;
+}
+
+
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.product-detail--title{
+    width: 100%;
+}
+
+.prodct-detail--card{
+    width: 48%;
+}
+
+

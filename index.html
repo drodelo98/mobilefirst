@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:600px)">
-    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:800px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:640px)">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -121,9 +121,17 @@
                <h2>Escoge el plan que mejor se ajuste a ti</h2>
                <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
             </div>
-            <section class="plans-container--slider">
+            <section class="plans-container--slider">              
                 <article class="plan-container--card">
-                    <p>Recomendado</p>
+                    <div>
+                        <h3>Pago anual</h3>
+                        <p class="dollar-s"><sup>$</sup>120</p>
+                        <p>*Ahorras $129 comparado al plan mensual</p>
+                        <button>Escoger este <span class="iconoBoton"></span></button>
+                    </div>
+                </article>
+                <article class="plan-container--card">
+                    <p class="recomendado">Recomendado</p>
                     <div>
                         <h3>Pago anual</h3>
                         <p class="dollar-s"><sup>$</sup>99</p>
@@ -131,9 +139,28 @@
                         <button>Escoger este <span class="iconoBoton"></span></button>
                     </div>
                 </article>
+                <article class="plan-container--card">
+                    <div>
+                        <h3>Pago anual</h3>
+                        <p class="dollar-s"><sup>$</sup>200</p>
+                        <p>*Ahorras $129 comparado al plan mensual</p>
+                        <button>Escoger este <span></span></button>
+                    </div>
+                </article>
             </section>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <a href="#"><li>Linkedin</li></a>
+                <a href="#"><li>Crunchbase</li></a>
+                <a href="#"><li>Hackernews</li></a>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/img/logo-footer.svg" alt="">
+        </section>
+    </footer>
 </body>
 </html>

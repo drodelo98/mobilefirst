@@ -1,0 +1,7 @@
+.plans-container--slider{
+    display: flex;
+    height: 290px;
+    overflow-x:hidden;
+    justify-content: center;
+    align-items: center;
+}
